@@ -597,6 +597,7 @@ pre code {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 @media (min-width: 576px) {
@@ -628,7 +629,8 @@ pre code {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    margin-top: auto;
 }
 
 .row {
@@ -4140,7 +4142,8 @@ tbody.collapse.show {
 
 .card-img {
     width: 100%;
-    border-radius: calc(.25rem - 1px)
+    border-radius: calc(.25rem - 1px);
+
 }
 
 .card-img-top {
