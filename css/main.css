@@ -21,7 +21,7 @@
     --primary: #007bff;
     --secondary: #868e96;
     --success: #28a745;
-    --info: #17a2b8;
+    --info: #B4CAE6;
     --warning: #ffc107;
     --danger: #dc3545;
     --light: #f8f9fa;
@@ -2444,14 +2444,14 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .btn-info {
     color: #fff;
-    background-color: #17a2b8;
-    border-color: #17a2b8
+    background-color: #4C5C6D;
+    border-color: #4C5C6D
 }
 
 .btn-info:hover {
     color: #fff;
-    background-color: #138496;
-    border-color: #117a8b
+    background-color: #4C5C6D;
+    border-color: #4C5C6D
 }
 
 .btn-info.focus, .btn-info:focus {
@@ -5684,7 +5684,7 @@ a.bg-danger:focus, a.bg-danger:hover {
 }
 
 .bg-light {
-    background-color: #f8f9fa !important;
+    background-color: #F9FBFE !important;
     margin-top: 10px;
 }
 
