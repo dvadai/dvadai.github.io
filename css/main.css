@@ -24,7 +24,7 @@
     --info: #B4CAE6;
     --warning: #ffc107;
     --danger: #dc3545;
-    --light: #f8f9fa;
+    --light: #5B8CC7;
     --dark: #343a40;
     --breakpoint-xs: 0;
     --breakpoint-sm: 576px;
@@ -2444,14 +2444,14 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .btn-info {
     color: #fff;
-    background-color: #4C5C6D;
-    border-color: #4C5C6D
+    background-color: #5B8CC7;
+    border-color: #5B8CC7
 }
 
 .btn-info:hover {
     color: #fff;
-    background-color: #4C5C6D;
-    border-color: #4C5C6D
+    background-color: #5B8CC7;
+    border-color: #5B8CC7
 }
 
 .btn-info.focus, .btn-info:focus {
@@ -2847,7 +2847,12 @@ a.btn.disabled, fieldset[disabled] a.btn {
     padding: .25rem .5rem;
     font-size: .875rem;
     line-height: 1.5;
-    border-radius: .2rem
+    border-radius: .2rem;
+    width: 15%;
+    text-align: center;
+    align-items:center;
+    align-self: center;
+
 }
 
 .btn-block {
@@ -3446,7 +3451,7 @@ tbody.collapse.show {
     height: calc(2.25rem + 2px);
     padding: .375rem .75rem;
     line-height: 1.5;
-    color: #495057;
+    color: #5B8CC7;
     pointer-events: none;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -3471,7 +3476,7 @@ tbody.collapse.show {
     height: calc(2.25rem + 2px);
     padding: .375rem .75rem;
     line-height: 1.5;
-    color: #495057;
+    color: #5B8CC7;
     background-color: #e9ecef;
     border: 1px solid #ced4da;
     border-radius: 0 .25rem .25rem 0
@@ -3505,7 +3510,7 @@ tbody.collapse.show {
 }
 
 .nav-link.disabled {
-    color: #868e96
+    color: #5B8CC7
 }
 
 .nav-tabs {
@@ -3527,13 +3532,13 @@ tbody.collapse.show {
 }
 
 .nav-tabs .nav-link.disabled {
-    color: #868e96;
+    color: #5B8CC7;
     background-color: transparent;
     border-color: transparent
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: #495057;
+    color: #5b8cc7;
     background-color: #fff;
     border-color: #ddd #ddd #fff
 }
@@ -3957,11 +3962,11 @@ tbody.collapse.show {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(0, 0, 0, .5)
+    color: rgba(0, 0, 0, .7)
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: rgba(0, 0, 0, .7)
+    color: #5B8CC7
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
